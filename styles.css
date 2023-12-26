@@ -1,0 +1,84 @@
+:root {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.container-fluid {
+    justify-self: left;
+    width: auto;
+    height: auto;
+    padding: 5rem;
+    background-color: rgb(48, 41, 37);
+}
+/* navbar */
+#navbar {
+    height: 4rem;
+    margin-bottom: 2rem;
+}
+
+/* font color */
+h1, h2 {
+    color: rgb(228, 165, 83);
+}
+h1 {
+    font-size: 3rem;
+}
+h2 {
+    font-size: 1.5rem;
+}
+
+/* PERSONAL INFO */
+img.my-picture {
+    /* size */
+    width: 16rem;
+    height: 16rem;
+    border: 3px dashed goldenrod;
+    object-fit: cover;
+    border-radius: 2rem;
+}
+div.personal-info {
+    width: 32rem;
+    padding: 2rem;
+    background-color: rgb(95, 71, 64);
+    font-size: 2rem;
+}
+.personal-info h2 {
+    font-size: 1rem;
+}
+.personal-info h1 {
+    font-size: 2rem;
+    text-align: right;
+}
+p {
+    font-size: 1rem;
+    color: bisque;
+}
+hr {
+    color: wheat;
+    size: 4px;
+}
+
+/* contact */
+div.contact {
+    width: 32rem;
+}
+.contact-icon {
+
+}
+
+/* EXPERIENCES INFO */
+#experiences-info{
+    text-align: right;
+}
+div.experiences-info {
+    width: 100%;
+    padding: 2rem;
+    background-color: rgb(95, 71, 64);
+    font-size: 2rem;
+    display: flex;
+    text-align: left;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+/* HOBBIES INFO */
+
+
