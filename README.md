@@ -64,3 +64,6 @@ Bootstrap Navbar with toggler button
 Bootstrap Progress to configure ‘scale bar’
 - Portfolio: contains at least 4 images with short 
 description for each image using Bootstrap Carousel
+
+NOTE : todo
+- fixed profile section
